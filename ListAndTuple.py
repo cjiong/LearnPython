@@ -68,3 +68,64 @@ len(L)
 # 0
 
 
+# Tuple
+
+# tuple 和 list 很相似，但是 tuple 一旦初始化了就不能修改，而且没有了 append() 和 insert() 这样的方法
+# 不可变的 tuple 的意义在于使代码更安全
+
+balls = ('basketball', 'Volleyball', 'football')
+
+# 定义一个 tuple，在定义的时候，tuple 的元素就必须要确定下来
+t = ('Harden', 'Lebron')
+t
+# ('Harden', 'Lebron')
+
+# 定义一个空的 tuple
+t = ()
+t
+# ()
+
+# 定义一个只有一个元素的 tuple，只有一个元素的 tuple 定义时必须加一个逗号，否则定义的不是 tuple
+t = （'KJ',)
+t
+# ('KJ')
+
+# 可变 tuple
+t = ('a', 'b', ['A', 'B'])
+t[2][0] = 'X'
+t[2][1] = 'Y'
+t
+# ('a', 'b', ['X', 'Y'])
+
+# tuple 所谓的“不变”是说，tuple 的每个元素，指向永远不变，但指向的 list 是可变的。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
